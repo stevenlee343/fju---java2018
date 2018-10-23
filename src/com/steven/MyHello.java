@@ -2,10 +2,15 @@ package com.steven;
 
 import com.steven.Personn;
 import com.steven.Studentt;
-
+import java.util.Scanner;
 public class MyHello {
 
 	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextLine();
+		System.out.println(name);
+		
 		
 		Studentt stu = new Studentt("dss",3,2);
 		stu.name = "dsf";
