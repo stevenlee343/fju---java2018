@@ -8,6 +8,7 @@ public class MyHello {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Your name ");
 		String name = scanner.nextLine();
 		System.out.println(name);
 		
